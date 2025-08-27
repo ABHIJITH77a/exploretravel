@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExploreWorld - Travel Agency</title>
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="/images/logo.png" alt="ExploreWorld Logo">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#destinations">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#packages">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center hero-content">
+        <h1>Discover Your Next Adventure</h1>
+        <p class="lead">Travel the world with our exclusive packages and offers.</p>
+        <a href="#packages" class="btn btn-custom btn-lg">Book Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Destinations -->
+<section id="destinations" class="section-padding bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">🌟 Featured Destinations</h2>
+      </div>
+    </div>
+    
+    <div class="row g-4">
+      <!-- Maldives -->
+      <div class="col-lg-4 col-md-6">
+        <div class="destination-card">
+          <img src="/images/malidives.jpg" alt="Maldives" class="card-img-top">
+          <div class="card-body-custom">
+            <h3>Maldives </h3>
+            <p>Experience the crystal-clear waters, coral reefs, and luxurious resorts.</p>
+            <a href="#" class="btn-explore">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Switzerland -->
+      <div class="col-lg-4 col-md-6">
+        <div class="destination-card">
+          <img src="/images/switz.jpg" alt="Switzerland" class="card-img-top">
+          <div class="card-body-custom">
+            <h3>Switzerland </h3>
+            <p>Enjoy breathtaking mountains, snowy landscapes, and peaceful lakes.</p>
+            <a href="#" class="btn-explore">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paris -->
+      <div class="col-lg-4 col-md-6 mx-auto">
+        <div class="destination-card">
+          <img src="/images/paris.jpg" alt="Paris" class="card-img-top">
+          <div class="card-body-custom">
+            <h3>Paris </h3>
+            <p>Discover the city of love, iconic Eiffel Tower, and rich history.</p>
+            <a href="#" class="btn-explore">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Travel Packages -->
+<section id="packages" class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">✨ Travel Packages</h2>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <!-- Bali -->
+      <div class="col-lg-3 col-md-6">
+        <div class="package-item">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Bali">
+          <div class="package-overlay">
+            <h3>Bali Escape</h3>
+            <p>5 Nights | Starting at <span>$799</span></p>
+            <a href="#" class="btn-explore">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dubai -->
+      <div class="col-lg-3 col-md-6">
+        <div class="package-item">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Dubai">
+          <div class="package-overlay">
+            <h3>Dubai Luxury</h3>
+            <p>4 Nights | Starting at <span>$999</span></p>
+            <a href="#" class="btn-explore">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rome -->
+      <div class="col-lg-3 col-md-6">
+        <div class="package-item">
+          <img src="https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef" alt="Rome">
+          <div class="package-overlay">
+            <h3>Rome Classics</h3>
+            <p>6 Nights | Starting at <span>$899</span></p>
+            <a href="#" class="btn-explore">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Thailand -->
+      <div class="col-lg-3 col-md-6">
+        <div class="package-item">
+          <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" alt="Thailand">
+          <div class="package-overlay">
+            <h3>Thailand Adventure</h3>
+            <p>7 Nights | Starting at <span>$699</span></p>
+            <a href="#" class="btn-explore">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section-padding contact-section">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side Image -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img src="/images/worldtour1.png" alt="Contact Us" class="img-fluid contact-image">
+      </div>
+      
+      <!-- Right Side Form -->
+      <div class="col-lg-6">
+        <div class="contact-box">
+          <h2 class="text-center mb-4">Get in Touch</h2>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control contact-input" placeholder="Name" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control contact-input" placeholder="Email" required>
+            </div>
+            <div class="col-12">
+              <textarea class="form-control contact-input" rows="4" placeholder="Message"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn contact-btn">Send Message →</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="custom-footer section-padding">
+  <div class="container">
+    <div class="row g-4">
+      
+      <!-- About -->
+      <div class="col-lg-3 col-md-6">
+        <img src="/images/logo.png" alt="ExploreWorld Logo" class="footer-logo">
+        <p>Your trusted travel partner .</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-3 col-md-6">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-3 col-md-6">
+        <h4>Contact Us</h4>
+        <p><i class="fas fa-map-marker-alt me-2"></i> 123 Travel Street, New York, USA</p>
+        <p><i class="fas fa-phone me-2"></i> +1 234 567 890</p>
+        <p><i class="fas fa-envelope me-2"></i> support@exploreworld.com</p>
+      </div>
+
+      <!-- Social Links -->
+      <div class="col-lg-3 col-md-6">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="row footer-bottom mt-4 pt-3">
+      <div class="col-12 text-center">
+        <p>&copy; 2025 ExploreWorld. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+// Auto-collapse navbar on mobile after clicking a link
+document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        if (navbarCollapse.classList.contains('show')) {
+            bootstrap.Collapse.getInstance(navbarCollapse).hide();
+        }
+    });
+});
+</script>
+
+</body>
+</html>
