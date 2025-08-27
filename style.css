@@ -54,7 +54,7 @@ body {
 }
 
 /* Hero Section */
-.hero-section {
+.hero-sectionn {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/banner.jpg') center/cover;
   min-height: 90vh;
   color: white;
